@@ -1,8 +1,6 @@
 
 import Experiences from './Experience.module.css';
-import orvionar from '../assets/orvionar1.webp';
-import techvolt from '../assets/tech.jpg';
-import alo from '../assets/aloinfotech.png';
+
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +16,7 @@ const Experience = () => {
 
   const experienceList = [
     {
-      img: orvionar,
+      
       role: "MERN Stack Developer",
       tasks: [
         "Developed full-stack features using MERN stack",
@@ -27,7 +25,7 @@ const Experience = () => {
       ]
     },
     {
-      img: techvolt,
+    
       role: "Frontend Intern",
       tasks: [
         "Implemented modern frontend technologies",
@@ -36,7 +34,7 @@ const Experience = () => {
       ]
     },
     {
-      img: alo,
+    
       role: "Java Intern",
       tasks: [
         "Built basic Java backend programs",
