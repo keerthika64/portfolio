@@ -20,7 +20,7 @@ const About = () => {
             improving my skills and learning new tools to build efficient and
             high-quality web applications.I am always eager to learn new technologies and improve my development skills to stay updated with modern web trends.
           </p>
-          <Button text={'Download CV' } radius={'10px'} align={'center'} />
+          <Button text={'Resume' } radius={'10px'} align={'center'} />
         </div>
       </div>
     </>
