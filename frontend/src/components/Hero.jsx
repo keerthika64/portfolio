@@ -5,7 +5,7 @@ import Button from "./Button";
 import picture from "../assets/image-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import moni from "../assets/keerthika.Resume.pdf"
+import moni from "../assets/Keerthika.Resume.pdf"
 
 import { useEffect } from "react";
 import AOS from "aos";
