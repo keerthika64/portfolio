@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.skillcard img {
+  width: 90px;
+  height: 75px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.skillcard {
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.skillcard:hover {
+  background-color: rgba(1, 69, 69);
+  color: white;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+
+  .skills {
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .skillcard {
+    width: 45%; 
+    height: auto;
+    padding: 15px;
+  }
+.skillcard h2{
+  font-size: 17px;
+}
+  .skillcard img {
+    width: 70px;
+    height: 60px;
+  }
+
+  .header {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .skills {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .skillcard {
+    width: 30%; 
+    height: auto;
+    padding: 18px;
+  }
+
+  .skillcard img {
+    width: 80px;
+    height: 65px;
+  }
+
+  .header {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+

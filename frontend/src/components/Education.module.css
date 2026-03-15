@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.education{
+display: flex;
+justify-content: center;
+gap:15px;
+margin-bottom: 40px;
+
+}
+.educations{
+    border:1px solid #ddd;
+  border-radius:25px;
+  background:rgba(1, 69, 69) ;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+ 
+
+}
+.educations:hover{
+   transform: translatey(-10px);
+}
+.name{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.education h2{
+    padding-bottom:  20px;
+    font-size: 25px;
+
+}
+.education p{
+    padding-bottom:  18px;
+    font-size: 19px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+
+    .education{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .name{
+        font-size: 28px;
+    }
+
+    .educations{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .education h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .education p{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    .name{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .education{
+        flex-direction: row;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .educations{
+        width: 300px;
+        padding: 25px;
+    }
+
+    .education h2{
+        font-size: 22px;
+        padding-bottom: 18px;
+    }
+
+    .education p{
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .name{
+        margin-bottom: 25px;
+    }
+}
