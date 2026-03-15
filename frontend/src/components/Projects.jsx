@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Portfolio Website",
       tech: ["React","HTML","CSS","JavaScript"],
       desc: "An interactive portfolio built to showcase my skills, projects, and professional journey. It features reusable React components, smooth navigation, and a responsive design that works seamlessly on both desktop and mobile devices.",
-      demo: "#",
+      demo: "https://portfolio-kohl-seven-ck764sr73u.vercel.app/",
 
     },
     {
