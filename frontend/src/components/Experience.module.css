@@ -64,8 +64,8 @@
   font-size: 18px;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+
+@media (min-width: 0px) and (max-width:768px) {
   .exp {
     font-size: 28px;
     margin: 25px 0 40px 0;
@@ -74,7 +74,7 @@
   .exp1 {
     flex-direction: column;
     gap: 20px;
-    padding-left: 20px;
+    margin-left: 15px;
   }
 
   .develop {
