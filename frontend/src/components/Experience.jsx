@@ -1,4 +1,5 @@
 
+
 import Experiences from './Experience.module.css';
 
 import { useEffect } from "react";
@@ -34,7 +35,7 @@ const Experience = () => {
       ]
     },
     {
-    
+      
       role: "Java Intern",
       tasks: [
         "Built basic Java backend programs",
@@ -52,7 +53,7 @@ const Experience = () => {
         {experienceList.map((exp, index) => (
           <div className={Experiences.exprow} key={index}>
             <div className={Experiences.develop} data-aos="zoom-in" data-aos-delay={index * 150}>
-
+      
               <h3>{exp.role}</h3>
               <ul>
                 {exp.tasks.map((task, idx) => (
