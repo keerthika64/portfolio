@@ -30,8 +30,9 @@ const Hero = () => {
         </p>
 
         <div className={Heros.abouts}>
-  
+          <a href={moni}>
           <Button text={"Resume"} radius={"10px"}  width={'110px'} links={moni}/>
+             </a>
           <a href="https://www.linkedin.com/in/keerthika-m-s-6a009525a/">
           <FontAwesomeIcon icon={faLinkedin} className={Heros.icons} />
           </a>
