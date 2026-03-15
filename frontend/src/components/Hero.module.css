@@ -127,14 +127,14 @@ body {
   }
 
   .face {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
   }
 
   .don {
-    width:260px;
+    width:250px;
     height: 350px;
   }
 }
