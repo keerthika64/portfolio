@@ -1,10 +1,10 @@
 
 import Heros from "./Hero.module.css";
 import Button from "./Button";
-import moni from "../assets/keerthika.Resume.pdf"
 import picture from "../assets/image-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import moni from "../assets/keerthika.Resume.pdf"
 
 import { useEffect } from "react";
 import AOS from "aos";
@@ -32,7 +32,7 @@ const Hero = () => {
         <div className={Heros.abouts}>
           <a href={moni}>
           <Button text={"Resume"} radius={"10px"}  width={'110px'} links={moni}/>
-             </a>
+          </a>
           <a href="https://www.linkedin.com/in/keerthika-m-s-6a009525a/">
           <FontAwesomeIcon icon={faLinkedin} className={Heros.icons} />
           </a>
