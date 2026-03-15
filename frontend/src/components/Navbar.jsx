@@ -1,33 +1,50 @@
-
+import { useState } from "react";
 import Navbars from "./Navbar.module.css";
-import Button from "./Button.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div className={Navbars.details}>
       <div className={Navbars.whole}>
-        <div>
-          <h1 className={Navbars.head}>MS</h1>
-        </div>
-        <div>
-          <input type="checkbox" id="menu" className={Navbars.check} />
 
-          <label htmlFor="menu" className={Navbars.checking}>
-            <FontAwesomeIcon  icon={faBars} className={Navbars.font} />
-          </label>
+        <h1 className={Navbars.head}>MS</h1>
 
-          <ul className={Navbars.menu}>
-        
-  <li><a href="#home">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#education">Education</a></li>
-  <li><a href="#skills">Skills</a></li>
-  <li><a href="#projects">Projects</a></li>
-  <li><a href="#experience">Experience</a></li>
-  <li><a href="#contact">Contact</a></li>
+        <div className={Navbars.nav}>
+
+          <div className={Navbars.checking} onClick={toggleMenu}>
+            <FontAwesomeIcon icon={faBars} />
+          </div>
+
+          <ul className={`${Navbars.menu} ${menuOpen ? Navbars.active : ""}`}>
+
+            <li><a href="#home" onClick={closeMenu}>Home</a></li>
+
+            <li><a href="#about" onClick={closeMenu}>About</a></li>
+
+            <li><a href="#education" onClick={closeMenu}>Education</a></li>
+
+            <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
+
+            <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
+
+            <li><a href="#experience" onClick={closeMenu}>Experience</a></li>
+
+            <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+
           </ul>
+
         </div>
       </div>
     </div>
