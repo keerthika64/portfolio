@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import styles from './Projects.module.css';
 import keralaimage from '../assets/kerala.png';
-import dressimage from '../assets/image.png';
+import dressimage from '../assets/collection.png';
 import portfolioimage from '../assets/image1.png';
 import AOS from "aos";
 import "aos/dist/aos.css";
