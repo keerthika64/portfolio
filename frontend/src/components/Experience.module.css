@@ -77,12 +77,13 @@
   }
 
   .develop {
+    width:280px;
     padding: 20px;
     margin-left:10px;
   }
 
   .child {
-    width: 120px;
+    width: 150px;
     height: 100px;
   }
 
