@@ -29,7 +29,8 @@ const Hero = () => {
         </p>
 
         <div className={Heros.abouts}>
-          <Button text={"Lets Talk"} radius={"10px"}  width={'110px'} links={"#contact"}/>
+  
+          <Button text={"Resume"} radius={"10px"}  width={'110px'} links={"#contact"}/>
           <a href="https://www.linkedin.com/in/keerthika-m-s-6a009525a/">
           <FontAwesomeIcon icon={faLinkedin} className={Heros.icons} />
           </a>
