@@ -23,23 +23,23 @@ const Projects = () => {
       tech: ["React","HTML","CSS","JavaScript"],
       desc: "An interactive portfolio built to showcase my skills, projects, and professional journey. It features reusable React components, smooth navigation, and a responsive design that works seamlessly on both desktop and mobile devices.",
       demo: "#",
-      github: "#"
+
     },
     {
       image: keralaimage,
       title: "Kerala Tourism Website",
       tech: ["HTML","CSS","JavaScript"],
       desc: "Explore the beauty of Kerala with interactive guides, travel information, and vibrant images. Features include an interactive gallery of tourist destinations, smooth hover animations, and a mobile-friendly responsive design.",
-      demo: "#",
-      github: "#"
+      demo: "https://tropicalls.netlify.app/",
+    
     },
     {
       image: dressimage,
       title: "Ecommerce Website",
       tech: ["HTML","CSS"],
       desc: "A clean online catalog showcasing various dress collections. The project focuses on layout, typography, and responsive design for both desktop and mobile devices.",
-      demo: "#",
-      github: "#"
+      demo: "https://brilliant-starship-7ac9b8.netlify.app/",
+
     }
   ];
 
@@ -65,7 +65,6 @@ const Projects = () => {
 
             <div className={styles.links}>
               <a href={p.demo} target="_blank">Live Demo</a>
-              <a href={p.github} target="_blank">GitHub</a>
             </div>
           </div>
         </div>
