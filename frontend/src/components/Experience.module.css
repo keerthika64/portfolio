@@ -24,7 +24,6 @@
 }
 
 .develop {
-  width: 300px;
   background: #0b4f4a;
   color: white;
   padding: 25px;
@@ -78,7 +77,7 @@
   }
 
   .develop {
-    padding: 10px;
+    padding: 20px;
     margin-left:10px;
   }
 
