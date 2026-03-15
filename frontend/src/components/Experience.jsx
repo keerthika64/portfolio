@@ -52,7 +52,7 @@ const Experience = () => {
         {experienceList.map((exp, index) => (
           <div className={Experiences.exprow} key={index}>
             <div className={Experiences.develop} data-aos="zoom-in" data-aos-delay={index * 150}>
-              <img className={Experiences.child} src={exp.img} alt={`${exp.role} Logo`} />
+
               <h3>{exp.role}</h3>
               <ul>
                 {exp.tasks.map((task, idx) => (
